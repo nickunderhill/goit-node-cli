@@ -1,7 +1,6 @@
 import fs from 'node:fs/promises';
 import { nanoid } from 'nanoid';
 import path from 'node:path';
-import 'colors';
 
 const contactsPath = path.join('src', 'db', 'contacts.json');
 
